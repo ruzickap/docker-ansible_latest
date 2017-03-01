@@ -7,7 +7,7 @@ RUN yum -y update; yum clean all
 
 RUN yum -y install epel-release; yum clean all
 
-RUN yum -y install gcc git make openssh-clients openssl-devel python-devel python-pip sudo; yum clean all
+RUN yum -y install gcc git make openssh-clients openssl-devel python3 python-devel python-pip sudo; yum clean all
 
 #Newer setuptools are needed for installing ansible using "make install" to fill requirement setuptools>=11.3
 RUN pip install --upgrade azure boto boto3 pywinrm setuptools
