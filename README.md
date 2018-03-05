@@ -1,3 +1,5 @@
+[![Docker pulls](https://img.shields.io/docker/pulls/peru/ansible_latest.svg)](https://hub.docker.com/r/peru/ansible_latest/)
+[![Docker Build](https://img.shields.io/docker/automated/peru/ansible_latest.svg)](https://hub.docker.com/r/peru/ansible_latest/)
 # About this Repo
 
 This repository provides Dockerfile which provides builds Ansible from source code + few additional libraries.
