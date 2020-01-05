@@ -1,6 +1,7 @@
 # Latest version of centos
 FROM centos:latest
-MAINTAINER Petr Ruzicka <petr.ruzicka@gmail.com>
+
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Update base image and install EPEL
 RUN yum -y update; yum -y install epel-release; yum clean all
