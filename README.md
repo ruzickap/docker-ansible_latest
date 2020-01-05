@@ -3,7 +3,8 @@
 [![Docker pulls](https://img.shields.io/docker/pulls/peru/ansible_latest.svg)](https://hub.docker.com/r/peru/ansible_latest/)
 [![Docker Build](https://img.shields.io/docker/automated/peru/ansible_latest.svg)](https://hub.docker.com/r/peru/ansible_latest/)
 
-This repository provides Dockerfile which provides builds Ansible from source code + few additional libraries.
+This repository provides Dockerfile which provides builds Ansible from source
+code + few additional libraries.
 
 * [https://hub.docker.com/r/peru/ansible_latest/](https://hub.docker.com/r/peru/ansible_latest/)
 
@@ -43,4 +44,4 @@ BSD
 
 ## Author Information
 
-This repo was created in 2017 by <petr.ruzicka@gmail.com>
+This repo was created in 2017 by [petr.ruzicka@gmail.com](mailto:petr.ruzicka@gmail.com)
