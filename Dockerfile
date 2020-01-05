@@ -1,14 +1,14 @@
 # Latest version of centos
-FROM centos:latest
+FROM centos:7
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Update base image and install EPEL
 RUN yum -y update; yum -y install epel-release; yum clean all
 
-RUN yum -y install git python-pip3; yum clean all
+RUN yum -y install git python-pip; yum clean all
 
-RUN pip3 install --upgrade boto boto3 docker-py pywinrm git+https://github.com/ansible/ansible.git@devel
+RUN pip install --upgrade boto boto3 docker-py pywinrm git+https://github.com/ansible/ansible.git@devel
 
 RUN groupadd -r ansible -g 433 && \
     useradd -u 431 -r -g ansible -d /home/ansible -s /sbin/nologin -c "Ansible Docker image user" ansible && \
