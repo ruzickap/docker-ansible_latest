@@ -1,5 +1,5 @@
 # Latest version of centos
-FROM centos:7
+FROM centos:8
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
