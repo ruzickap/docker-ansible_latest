@@ -1,4 +1,7 @@
 ignored:
+  # Last user should not be root
   - DL3002
+  # Pin versions in apk add
   - DL3008
+  # Pin versions in pip
   - DL3013
